@@ -20,7 +20,7 @@
 }
 .input-icon i {
    position: absolute;
-   padding-left: 30px;
+   padding-left: 10px;
    padding-top: 10px;
    color: #fff;
 }
@@ -28,6 +28,7 @@
 .input-icon {
    width: 100%;
    margin-bottom: 10px;
+   
 }
 
 .input-field {
@@ -83,6 +84,7 @@
    text-decoration: none;
    color: #262626;
 }
+
 .dashContent a{
    text-decoration: none;
    color: #262626;
@@ -146,17 +148,22 @@ padding-left: 70px;
    outline: none; 
 }
 
+::placeholder{
+   color: #fff!important;
+   text-align: left!important;
+   display: block!important;
+   font-weight: 400;
+   padding-left: 30px;
+}
 
+.offcanvas-start {
+   width: 300px!important;
+}
 @media (max-width:885px) {
-   /* .btn-primary{
-      display: none;
-   } */
    #navHeader{
       width: 100%!important;
    }
-   .navbar {
-      flex-direction: row-reverse!important;
-   }
+  
    .input-icon i {
       position: absolute;
       padding-left: 10px;
