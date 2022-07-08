@@ -1,0 +1,159 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.btn-primary{
+   height: 45px!important;
+   margin-bottom: 10px !important;
+   background-color: #51A4F1!important;
+   border-color: #51A4F1!important;
+}
+
+.input-icon i {
+   position: absolute;
+   padding-left: 30px;
+   padding-top: 10px;
+   color: #fff;
+}
+ 
+.input-icon {
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.input-field {
+   width: 100%;
+   padding: 10px;
+   text-align: center;
+}
+
+#sidebar {
+   height: 100%;
+   text-align: left;
+   color: black;
+   padding: 15px;
+}
+
+#sidebar h6{
+   color: #868E96;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px
+}
+
+.dashContent{
+   align-items: flex-end;
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+.dashBoard {
+   padding: 10px 20px;
+   width: 240px;
+   height: 48px;
+   border-radius: 16px;
+   background: rgba(0, 133, 255, 0.1);
+}
+
+.dashBoard a {
+   text-decoration: none;
+   color: #262626;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;   
+}
+
+
+.dashUser, .dashSetting, .notifications{
+   font-size: 20px;
+   padding-left: 30px;
+   text-decoration: none;
+   color: #262626;
+}
+.dashContent a{
+   text-decoration: none;
+   color: #262626;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+ .dropdown-btn {
+   padding: 8px 6px 16px;
+   padding-left: 30px; 
+   border: none;
+   background: none;
+   width: 100%;
+   cursor: pointer;
+   outline: none; 
+}
+
+ .sidenav a{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: left;
+   text-decoration: none;
+   color:  rgba(0, 0, 0, 0.6);
+   display: block;
+   cursor: pointer;
+   align-items: center;
+ }
+
+ .sidenav a:hover {
+color: #262626;
+}
+
+.dropdown-btn:hover{
+   color: #262626;
+}
+
+.dropdown-container {
+display: none;
+background-color: rgba(230, 225, 230, 0.067);
+padding-left: 70px;
+}
+
+.dropdown-arrow {
+   position: absolute;
+   padding: 8px 6px 16px;
+   padding-left: 30px; 
+   border: none;
+   background: none;
+   width: 100%;
+   cursor: pointer;
+   outline: none; 
+}
+
+
+@media (max-width:885px) {
+   .btn-primary{
+      display: none;
+   }
+   #navHeader{
+      width: 100%!important;
+   }
+   .navbar {
+      flex-direction: row-reverse!important;
+   }
+   .input-icon i {
+      position: absolute;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-right: 20px;
+   }
+   .navbar-nav {
+      align-items: flex-start!important;
+   }
+}
+
