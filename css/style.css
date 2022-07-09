@@ -34,10 +34,8 @@
    width: 100%;
    padding: 10px;
    text-align: left;
+   padding-left: 35px;
 }
-.search-bar:focus-within i {
-   display: none;
- } 
 
 #sidebar {
    height: 100%;
@@ -155,7 +153,7 @@ padding-left: 70px;
    text-align: left!important;
    display: block;
    font-weight: 400;
-   padding-left: 30px;
+   padding-left: 5px;
 }
 
 .offcanvas-start {

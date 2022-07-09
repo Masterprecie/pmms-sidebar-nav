@@ -31,8 +31,14 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                      <ul class="navbar-nav mb-2 mb-lg-0 align-items-center" >
                         <li class="nav-item">
-                           <a class="nav-link"  href="#"> <img src="./img/navMessage.png"></a>
+                           <a class="nav-link position-relative"  href="#"> <img src="./img/navMessage.png">
+                              <span class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
+                                 8
+                                 <span class="visually-hidden">unread messages</span>
+                               </span>
+                           </a>
                         </li>
+
                         <li class="nav-item">
                            <a class="nav-link" href="#"><img src="./img/navNotify.png"></a>
                         </li>
@@ -95,11 +101,15 @@
                   <br>
                
                   <div class=" notifications d-flex align-items-center mt-5 mb-2">
-                     <img src="./img/dashNotification.png" class="me-3 ms-0">
-                     <a href="#">Notifications</a>
+                     <a href="#" class="position-relative"> <img src="./img/dashNotification.png" class="me-3 ms-0">   
+                        <span class="position-absolute top-0 start-0 translate-middle p-2 bg-danger border border-light rounded-circle">
+                           <span class="visually-hidden">New alerts</span>
+                         </span>                        
+                        Notifications
+                     </a>
                   </div>
                </div>
-
+              
                <br>
                <br>
 
@@ -112,7 +122,7 @@
 
                   <br>
 
-                  <div class=" dashSetting d-flex align-items-center pb-3">
+                  <div class=" dashSetting d-flex align-items-center pb-5">
                      <img src="./img/dashSetting.png" class="me-2">
                      <a href="#">Settings</a>
                   </div>
